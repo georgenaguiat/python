@@ -20,9 +20,9 @@ print(count)
 for count_down in range(2018, 1, -4):
     print(count_down)
 
-lowNum = 7
-highNum = 10
-mult = 5
+lowNum = 2
+highNum = 9
+mult = 3
 
 for i in range(lowNum, highNum +1):
     if i % mult == 0:

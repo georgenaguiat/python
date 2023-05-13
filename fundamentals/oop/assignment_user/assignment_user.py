@@ -32,11 +32,12 @@ class User:
         else:
             self.gold_card_points -= amount
 
-person = User('Brian', 'Smith', 'test@gmail.com', 21)
-person.display_info()
+person = User('Brian', 'Smith', 'brianemail@gmail.com', 21)
+person1 = User('Casper', 'Ghost', 'casperemail@yahoo.con', 200 )
 person.enroll()
-person.display_info()
-person.spend_points(200)
-person.display_info()
 person.enroll()
-person.spend_points(250)
+person1.enroll()
+person.spend_points(50)
+person1.spend_points(80)
+person.display_info()
+person1.display_info()

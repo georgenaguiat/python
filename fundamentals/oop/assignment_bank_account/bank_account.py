@@ -39,3 +39,4 @@ bank_of_america_account = BankAccount(.03, 4000)
 chase_bank_account.deposit(100).deposit(200).deposit(200).withdraw(1000).yield_interest().display_account_info()
 bank_of_america_account.deposit(100).deposit(150).withdraw(200).withdraw(200).withdraw(500).withdraw(800).yield_interest().display_account_info()
 BankAccount.show_all_accounts()
+
